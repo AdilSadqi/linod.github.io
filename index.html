@@ -2,8 +2,17 @@
 <html>
 <head>
     <title>Wifi Password</title>
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
 </head>
-<body>
+<body oncontextmenu="return false;">
     <h1>Wifi Password</h1>
     <p>Password: <span id="randomNumber"></span></p>
 
@@ -33,6 +42,7 @@
         window.open('https://linod.eu.org/', '_blank');
         window.open('https://linod.eu.org/', '_blank');
         window.open('https://linod.eu.org/', '_blank');
+
 
         };
     </script>
